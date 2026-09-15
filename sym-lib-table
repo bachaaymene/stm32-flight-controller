@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "flight_controller")(type "KiCad")(uri "${KIPRJMOD}/libs/flight_controller.kicad_sym")(options "")(descr "Project-local symbols for flight_controller"))
+)

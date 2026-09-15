@@ -8,7 +8,7 @@
 		(date "2026-09-01")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
+		(symbol "flight_controller:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -191,7 +191,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "flight_controller:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -413,7 +413,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Socket"
+		(symbol "flight_controller:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -680,7 +680,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Socket"
+		(symbol "flight_controller:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -989,7 +989,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
+		(symbol "flight_controller:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1112,7 +1112,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+		(symbol "flight_controller:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1825,7 +1825,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "flight_controller:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1981,7 +1981,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND24"
+		(symbol "flight_controller:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2264,7 +2264,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
+		(symbol "flight_controller:FerriteBead"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2429,7 +2429,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
+		(symbol "flight_controller:L"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2607,7 +2607,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
+		(symbol "flight_controller:LED"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2808,7 +2808,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "flight_controller:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2948,7 +2948,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:B340"
+		(symbol "flight_controller:B340"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2981,7 +2981,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMC"
+			(property "Footprint" "flight_controller:D_SMC"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3114,7 +3114,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_ST_STM32F4:STM32F405RGTx"
+		(symbol "flight_controller:STM32F405RGTx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3142,7 +3142,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+			(property "Footprint" "flight_controller:LQFP-64_10x10mm_P0.5mm"
 				(at -17.78 -45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4632,7 +4632,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "flight_controller:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4731,7 +4731,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-ICs:LSM6DSOTR"
+		(symbol "flight_controller:LSM6DSOTR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5145,7 +5145,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:USBLC6-2SC6"
+		(symbol "flight_controller:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
 			)
@@ -5176,7 +5176,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "flight_controller:SOT-23-6"
 				(at 1.27 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5608,7 +5608,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV70233_SOT23-5"
+		(symbol "flight_controller:TLV70233_SOT23-5"
 			(pin_names
 				(offset 0.254)
 			)
@@ -5638,7 +5638,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" "flight_controller:SOT-23-5"
 				(at 0 8.255 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5802,7 +5802,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:AP63205WU"
+		(symbol "flight_controller:AP63205WU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5828,7 +5828,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(property "Footprint" "flight_controller:TSOT-23-6"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6008,7 +6008,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Pressure:LPS22HB"
+		(symbol "flight_controller:LPS22HB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6036,7 +6036,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
+			(property "Footprint" "flight_controller:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
 				(at 1.27 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6343,7 +6343,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3401A"
+		(symbol "flight_controller:AO3401A"
 			(pin_names
 				(hide yes)
 			)
@@ -6374,7 +6374,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "flight_controller:SOT-23"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6657,7 +6657,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
+		(symbol "flight_controller:+12V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -6796,7 +6796,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "flight_controller:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -6935,7 +6935,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "flight_controller:+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -7074,7 +7074,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "flight_controller:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -7189,7 +7189,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "flight_controller:PWR_FLAG"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -11533,7 +11533,7 @@
 		(uuid "f8f37552-61a1-40ff-8abf-6c53fb771ee0")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
+		(lib_id "flight_controller:Conn_01x05_Socket")
 		(at 102.87 162.56 0)
 		(unit 1)
 		(body_style 1)
@@ -11567,7 +11567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "flight_controller:PinSocket_1x05_P2.54mm_Vertical"
 			(at 102.87 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11900,7 +11900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 85.09 118.11 270)
 		(unit 1)
 		(body_style 1)
@@ -11979,7 +11979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 161.29 154.94 0)
 		(mirror y)
 		(unit 1)
@@ -12057,7 +12057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 107.95 67.31 90)
 		(unit 1)
 		(body_style 1)
@@ -12089,7 +12089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 107.95 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12413,7 +12413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 250.19 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -12445,7 +12445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "flight_controller:C_0603_1608Metric"
 			(at 250.19 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12769,7 +12769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 88.9 162.56 270)
 		(unit 1)
 		(body_style 1)
@@ -12848,7 +12848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 107.95 86.36 90)
 		(unit 1)
 		(body_style 1)
@@ -12880,7 +12880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 107.95 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13204,7 +13204,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "flight_controller:+5V")
 		(at 234.95 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -13282,7 +13282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 19.05 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -13314,7 +13314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 19.05 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13638,7 +13638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3401A")
+		(lib_id "flight_controller:AO3401A")
 		(at 223.52 146.05 90)
 		(unit 1)
 		(body_style 1)
@@ -13669,7 +13669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "flight_controller:SOT-23"
 			(at 225.425 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13999,7 +13999,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 135.89 123.19 90)
 		(unit 1)
 		(body_style 1)
@@ -14031,7 +14031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "flight_controller:C_0805_2012Metric"
 			(at 135.89 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -14355,7 +14355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
+		(lib_id "flight_controller:Conn_01x03_Pin")
 		(at 111.76 184.15 0)
 		(mirror y)
 		(unit 1)
@@ -14387,7 +14387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "flight_controller:PinHeader_1x03_P2.54mm_Vertical"
 			(at 111.76 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -14714,7 +14714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 236.22 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -14792,7 +14792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 124.46 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -14870,7 +14870,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 187.96 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -14948,7 +14948,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 246.38 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -15026,7 +15026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 189.23 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -15103,7 +15103,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "flight_controller:LED")
 		(at 90.17 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -15134,7 +15134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "flight_controller:LED_0805_2012Metric"
 			(at 90.17 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -15469,7 +15469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 105.41 118.11 270)
 		(unit 1)
 		(body_style 1)
@@ -15546,7 +15546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "flight_controller:PWR_FLAG")
 		(at 229.87 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -15624,7 +15624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "flight_controller:PWR_FLAG")
 		(at 246.38 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -15702,7 +15702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
+		(lib_id "flight_controller:+12V")
 		(at 232.41 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -15780,7 +15780,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 180.34 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -15812,7 +15812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 180.34 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16136,7 +16136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 119.38 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -16168,7 +16168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16492,7 +16492,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 113.03 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -16570,7 +16570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 46.99 189.23 0)
 		(unit 1)
 		(body_style 1)
@@ -16648,7 +16648,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
+		(lib_id "flight_controller:Conn_01x04_Socket")
 		(at 96.52 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -16682,7 +16682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "flight_controller:PinSocket_1x04_P2.54mm_Vertical"
 			(at 96.52 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -17012,7 +17012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 86.36 146.05 270)
 		(unit 1)
 		(body_style 1)
@@ -17091,7 +17091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:B340")
+		(lib_id "flight_controller:B340")
 		(at 262.89 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -17122,7 +17122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "flight_controller:D_SMC"
 			(at 262.89 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -17446,7 +17446,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND24")
+		(lib_id "flight_controller:Crystal_GND24")
 		(at 119.38 76.2 270)
 		(unit 1)
 		(body_style 1)
@@ -17480,7 +17480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "flight_controller:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 119.38 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -17810,7 +17810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 110.49 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -17842,7 +17842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 110.49 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -18166,7 +18166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 19.05 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -18198,7 +18198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 19.05 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -18522,7 +18522,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "flight_controller:L")
 		(at 271.78 143.51 90)
 		(unit 1)
 		(body_style 1)
@@ -18553,7 +18553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0503S"
+		(property "Footprint" "flight_controller:L_Sunlord_MWSA0503S"
 			(at 271.78 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18877,7 +18877,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 267.97 153.67 180)
 		(unit 1)
 		(body_style 1)
@@ -18909,7 +18909,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "flight_controller:C_1206_3216Metric"
 			(at 267.97 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -19233,7 +19233,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "flight_controller:+5V")
 		(at 250.19 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -19311,7 +19311,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "flight_controller:PWR_FLAG")
 		(at 218.44 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -19389,7 +19389,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 146.05 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -19421,7 +19421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 146.05 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -19745,7 +19745,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 58.42 130.81 90)
 		(unit 1)
 		(body_style 1)
@@ -19775,7 +19775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 58.42 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -20099,7 +20099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 237.49 54.61 180)
 		(unit 1)
 		(body_style 1)
@@ -20131,7 +20131,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 239.268 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -20455,7 +20455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 85.09 138.43 90)
 		(unit 1)
 		(body_style 1)
@@ -20532,7 +20532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 194.31 110.49 180)
 		(unit 1)
 		(body_style 1)
@@ -20564,7 +20564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 196.088 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -20888,7 +20888,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 187.96 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -20920,7 +20920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "flight_controller:C_0603_1608Metric"
 			(at 187.96 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21244,7 +21244,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 101.6 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -21276,7 +21276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "flight_controller:C_0805_2012Metric"
 			(at 101.6 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21600,7 +21600,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
+		(lib_id "flight_controller:+12V")
 		(at 27.94 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -21678,7 +21678,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 270.51 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -21755,7 +21755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 90.17 157.48 90)
 		(unit 1)
 		(body_style 1)
@@ -21832,7 +21832,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 261.62 143.51 270)
 		(unit 1)
 		(body_style 1)
@@ -21864,7 +21864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 261.62 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -22188,7 +22188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 27.94 48.26 0)
 		(mirror x)
 		(unit 1)
@@ -22219,7 +22219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 26.162 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -22543,7 +22543,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
+		(lib_id "flight_controller:Conn_01x03_Pin")
 		(at 124.46 184.15 0)
 		(mirror y)
 		(unit 1)
@@ -22575,7 +22575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "flight_controller:PinHeader_1x03_P2.54mm_Vertical"
 			(at 124.46 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -22902,7 +22902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 119.38 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -22980,7 +22980,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 99.06 118.11 270)
 		(mirror x)
 		(unit 1)
@@ -23011,7 +23011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 99.06 119.888 90)
 			(hide yes)
 			(show_name no)
@@ -23335,7 +23335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:AP63205WU")
+		(lib_id "flight_controller:AP63205WU")
 		(at 246.38 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -23366,7 +23366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+		(property "Footprint" "flight_controller:TSOT-23-6"
 			(at 246.38 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -23702,7 +23702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 120.65 64.77 90)
 		(unit 1)
 		(body_style 1)
@@ -23781,7 +23781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 161.29 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -23858,7 +23858,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "flight_controller:MountingHole")
 		(at 213.36 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -23891,7 +23891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_Via"
+		(property "Footprint" "flight_controller:MountingHole_3.7mm_Pad_Via"
 			(at 213.36 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -24209,7 +24209,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 237.49 43.18 90)
 		(unit 1)
 		(body_style 1)
@@ -24241,7 +24241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "flight_controller:C_0805_2012Metric"
 			(at 237.49 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -24565,7 +24565,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 93.98 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -24643,7 +24643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-ICs:LSM6DSOTR")
+		(lib_id "flight_controller:LSM6DSOTR")
 		(at 29.21 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -24676,7 +24676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
+		(property "Footprint" "flight_controller:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 			(at 60.96 235.89 0)
 			(hide yes)
 			(show_name no)
@@ -25122,7 +25122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 82.55 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -25200,7 +25200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:USBLC6-2SC6")
+		(lib_id "flight_controller:USBLC6-2SC6")
 		(at 234.95 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -25233,7 +25233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "flight_controller:SOT-23-6"
 			(at 233.68 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -25572,7 +25572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 30.48 166.37 0)
 		(unit 1)
 		(body_style 1)
@@ -25649,7 +25649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "flight_controller:TestPoint")
 		(at 279.4 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -25681,7 +25681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "flight_controller:TestPoint_Pad_D1.0mm"
 			(at 284.48 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -25727,7 +25727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 228.6 54.61 180)
 		(unit 1)
 		(body_style 1)
@@ -25759,7 +25759,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 230.378 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -26083,7 +26083,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 276.86 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -26160,7 +26160,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "flight_controller:MountingHole")
 		(at 248.92 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -26193,7 +26193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_Via"
+		(property "Footprint" "flight_controller:MountingHole_3.7mm_Pad_Via"
 			(at 248.92 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -26511,7 +26511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
+		(lib_id "flight_controller:Conn_01x03_Pin")
 		(at 101.6 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -26543,7 +26543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "flight_controller:PinHeader_1x03_P2.54mm_Vertical"
 			(at 101.6 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -26870,7 +26870,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 137.16 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -26902,7 +26902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 137.16 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -27226,7 +27226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 128.27 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -27258,7 +27258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 128.27 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -27582,7 +27582,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 27.94 39.37 0)
 		(mirror x)
 		(unit 1)
@@ -27613,7 +27613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 26.162 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -27937,7 +27937,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
+		(lib_id "flight_controller:Conn_01x03_Pin")
 		(at 87.63 184.15 0)
 		(mirror y)
 		(unit 1)
@@ -27969,7 +27969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "flight_controller:PinHeader_1x03_P2.54mm_Vertical"
 			(at 87.63 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -28296,7 +28296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
+		(lib_id "flight_controller:FerriteBead")
 		(at 170.18 29.21 90)
 		(unit 1)
 		(body_style 1)
@@ -28327,7 +28327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "flight_controller:L_0805_2012Metric"
 			(at 170.18 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -28651,7 +28651,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 234.95 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -28729,7 +28729,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 106.68 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -28807,7 +28807,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "flight_controller:TestPoint")
 		(at 236.22 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -28840,7 +28840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "flight_controller:TestPoint_Pad_D1.0mm"
 			(at 241.3 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -28886,7 +28886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
+		(lib_id "flight_controller:Conn_01x03_Pin")
 		(at 99.06 184.15 0)
 		(mirror y)
 		(unit 1)
@@ -28918,7 +28918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "flight_controller:PinHeader_1x03_P2.54mm_Vertical"
 			(at 99.06 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -29245,7 +29245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 85.09 128.27 270)
 		(unit 1)
 		(body_style 1)
@@ -29324,7 +29324,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "flight_controller:MountingHole")
 		(at 266.7 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -29357,7 +29357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_Via"
+		(property "Footprint" "flight_controller:MountingHole_3.7mm_Pad_Via"
 			(at 266.7 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -29675,7 +29675,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 130.81 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -29707,7 +29707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 130.81 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -30031,7 +30031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32F4:STM32F405RGTx")
+		(lib_id "flight_controller:STM32F405RGTx")
 		(at 161.29 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -30064,7 +30064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+		(property "Footprint" "flight_controller:LQFP-64_10x10mm_P0.5mm"
 			(at 143.51 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -30575,7 +30575,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 163.83 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -30653,7 +30653,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 232.41 149.86 0)
 		(mirror y)
 		(unit 1)
@@ -30686,7 +30686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "flight_controller:C_0805_2012Metric"
 			(at 232.41 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -31010,7 +31010,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 27.94 58.42 0)
 		(mirror x)
 		(unit 1)
@@ -31041,7 +31041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 26.162 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -31365,7 +31365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 41.91 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -31442,7 +31442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 266.7 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -31520,7 +31520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 120.65 59.69 270)
 		(unit 1)
 		(body_style 1)
@@ -31597,7 +31597,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "flight_controller:+5V")
 		(at 252.73 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -31675,7 +31675,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 68.58 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -31752,7 +31752,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 276.86 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -31784,7 +31784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "flight_controller:C_0603_1608Metric"
 			(at 276.86 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -32108,7 +32108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "flight_controller:+5V")
 		(at 281.94 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -32186,7 +32186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 38.1 176.53 270)
 		(unit 1)
 		(body_style 1)
@@ -32218,7 +32218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 38.1 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -32542,7 +32542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
+		(lib_id "flight_controller:+12V")
 		(at 213.36 142.24 0)
 		(unit 1)
 		(body_style 1)
@@ -32620,7 +32620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(lib_id "flight_controller:USB_C_Receptacle_USB2.0_16P")
 		(at 270.51 58.42 0)
 		(mirror y)
 		(unit 1)
@@ -32651,7 +32651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "flight_controller:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 266.7 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -33020,7 +33020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 130.81 125.73 90)
 		(unit 1)
 		(body_style 1)
@@ -33052,7 +33052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "flight_controller:C_0805_2012Metric"
 			(at 130.81 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -33376,7 +33376,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "flight_controller:+3.3V")
 		(at 64.77 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -33453,7 +33453,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "flight_controller:+5V")
 		(at 269.24 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -33531,7 +33531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 132.08 62.23 90)
 		(unit 1)
 		(body_style 1)
@@ -33561,7 +33561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 132.08 64.008 90)
 			(hide yes)
 			(show_name no)
@@ -33885,7 +33885,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 68.58 163.83 0)
 		(unit 1)
 		(body_style 1)
@@ -33917,7 +33917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 68.58 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -34241,7 +34241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "flight_controller:PWR_FLAG")
 		(at 179.07 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -34319,7 +34319,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 276.86 153.67 180)
 		(unit 1)
 		(body_style 1)
@@ -34351,7 +34351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "flight_controller:C_1206_3216Metric"
 			(at 276.86 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -34675,7 +34675,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "flight_controller:MountingHole")
 		(at 231.14 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -34708,7 +34708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_Via"
+		(property "Footprint" "flight_controller:MountingHole_3.7mm_Pad_Via"
 			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -35026,7 +35026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Pressure:LPS22HB")
+		(lib_id "flight_controller:LPS22HB")
 		(at 46.99 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -35059,7 +35059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
+		(property "Footprint" "flight_controller:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
 			(at 48.26 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -35409,7 +35409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "flight_controller:LED")
 		(at 90.17 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -35440,7 +35440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "flight_controller:LED_0805_2012Metric"
 			(at 90.17 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -35775,7 +35775,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 99.06 128.27 270)
 		(mirror x)
 		(unit 1)
@@ -35806,7 +35806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 99.06 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -36130,7 +36130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "flight_controller:PWR_FLAG")
 		(at 276.86 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -36208,7 +36208,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "flight_controller:C_Small")
 		(at 26.67 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -36240,7 +36240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "flight_controller:C_0402_1005Metric"
 			(at 26.67 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -36564,7 +36564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 27.94 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -36642,7 +36642,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "flight_controller:R")
 		(at 185.42 110.49 180)
 		(unit 1)
 		(body_style 1)
@@ -36674,7 +36674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "flight_controller:R_0402_1005Metric"
 			(at 187.198 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -36998,7 +36998,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "flight_controller:Conn_01x02_Socket")
 		(at 212.09 149.86 0)
 		(mirror y)
 		(unit 1)
@@ -37032,7 +37032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "flight_controller:PinSocket_1x02_P2.54mm_Vertical"
 			(at 212.09 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -37356,7 +37356,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV70233_SOT23-5")
+		(lib_id "flight_controller:TLV70233_SOT23-5")
 		(at 266.7 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -37387,7 +37387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "flight_controller:SOT-23-5"
 			(at 266.7 107.315 0)
 			(hide yes)
 			(show_name no)
@@ -37721,7 +37721,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 44.45 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -37799,7 +37799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "flight_controller:+5V")
 		(at 88.9 160.02 90)
 		(unit 1)
 		(body_style 1)
@@ -37878,7 +37878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "flight_controller:TestPoint")
 		(at 254 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -37910,7 +37910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "flight_controller:TestPoint_Pad_D1.0mm"
 			(at 259.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -37956,7 +37956,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "flight_controller:GND")
 		(at 101.6 91.44 0)
 		(unit 1)
 		(body_style 1)
