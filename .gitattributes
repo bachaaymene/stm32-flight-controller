@@ -1,0 +1,24 @@
+# KiCad source files are LF-delimited S-expression text.
+# Pin the line endings so autocrlf on Windows clones does not rewrite them.
+*.kicad_pcb   text eol=lf
+*.kicad_sch   text eol=lf
+*.kicad_sym   text eol=lf
+*.kicad_mod   text eol=lf
+*.kicad_pro   text eol=lf
+*.kicad_prl   text eol=lf
+*.kicad_dru   text eol=lf
+*.kicad_wks   text eol=lf
+sym-lib-table text eol=lf
+fp-lib-table  text eol=lf
+.gitignore    text eol=lf
+*.json        text eol=lf
+*.csv         text eol=lf
+
+# Binary assets - never diff or convert
+*.step binary
+*.stp  binary
+*.wrl  binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.zip  binary
