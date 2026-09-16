@@ -2,7 +2,7 @@
 
 A 4-layer flight controller board for an F450 quadcopter frame, based on the STM32F405RGT6. Designed in KiCad 10 by [SparkLab DZ](https://sparklabdz.com).
 
-![3D render](docs/render.png)
+![3D render](post/pcb3d.png)
 
 ## Features
 
@@ -17,6 +17,25 @@ A 4-layer flight controller board for an F450 quadcopter frame, based on the STM
 | USB | USB Type-C 16P | PA11 / PA12 |
 | Battery sense | 33k / 10k divider | PA0 (ADC) |
 
+## Schematic
+
+![Schematic](post/flight_controller_page-0001.jpg)
+
+Full schematic as PDF: [post/flight_controller.pdf](post/flight_controller.pdf)
+
+## PCB Layout
+
+![PCB layout](post/pcblayout.png)
+
+### Stackup
+
+| Layer | Use |
+|---|---|
+| L1 | Signal + components |
+| L2 | Solid GND plane |
+| L3 | Power |
+| L4 | Signal |
+
 ## Pin Map
 
 | Function | Pin(s) |
@@ -28,45 +47,48 @@ A 4-layer flight controller board for an F450 quadcopter frame, based on the STM
 | USB D- / D+ | PA11 / PA12 |
 | Battery voltage | PA0 |
 
-## PCB Stackup
+Pin configuration in STM32CubeIDE:
 
-| Layer | Use |
-|---|---|
-| L1 | Signal + components |
-| L2 | Solid GND plane |
-| L3 | Power |
-| L4 | Signal |
+![STM32CubeIDE pinout](post/stmcubeide.png)
 
 ## Repository Structure
 
 ```
-flight_controller/
-├── flight_controller.kicad_pro   KiCad project
-├── flight_controller.kicad_sch   Schematic
-├── flight_controller.kicad_pcb   PCB layout
-├── flight_controller.csv         Bill of materials
-├── libs/                         Project symbols, footprints and 3D models
-├── post/                         Manufacturing outputs
-└── docs/                         Images and documentation
+stm32-flight-controller/
+├── datasheets/                      Component datasheets
+├── libs/                            Project symbols, footprints and 3D models
+├── post/                            Schematic PDF and images
+├── flight_controller.kicad_pro      KiCad project
+├── flight_controller.kicad_sch      Schematic
+├── flight_controller.kicad_pcb      PCB layout
+├── flight_controller.csv            Bill of materials
+├── fabrication-toolkit-options.json Fabrication Toolkit plugin settings
+├── sym-lib-table                    Project symbol library table
+├── fp-lib-table                     Project footprint library table
+├── .gitattributes                   Git LFS settings
+└── .gitignore
 ```
 
 ## Opening the Project
 
 Requirements: **KiCad 10.0 or newer**. Older versions cannot open these files.
 
+The repository uses Git LFS for large files, so install it before cloning:
+
 ```bash
-git clone https://github.com/USERNAME/REPO.git
+git lfs install
+git clone https://github.com/bachaaymene/stm32-flight-controller.git
 ```
 
 Then open `flight_controller.kicad_pro` in KiCad.
 
-All symbols, footprints and 3D models are stored inside the repository with paths relative to the project (`${KIPRJMOD}`), so no external libraries are needed. If something appears missing, please open an issue.
+All symbols, footprints and 3D models are stored in `libs/` with paths relative to the project (`${KIPRJMOD}`), so no external libraries are needed. If something appears missing, please open an issue.
 
 ## Manufacturing
 
-Gerber, drill and BOM files are available in the [Releases](../../releases) page.
+The BOM is in `flight_controller.csv`.
 
-The BOM uses LCSC part numbers and can be used directly with JLCPCB assembly service.
+Production files (Gerber, drill, BOM and CPL) for JLCPCB can be generated with the [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) plugin. Install it from the KiCad Plugin and Content Manager, then run it from the PCB editor. The settings used for this board are saved in `fabrication-toolkit-options.json`.
 
 ## Status
 
